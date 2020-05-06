@@ -51,7 +51,7 @@ class WhatsappHandler {
         this.consoleInfo("Please login to Whatsapp now.");
 
         if(process.env.START_INDEX) {
-            this.CELINE_TOP_FAN_IDX = process.env.START_INDEX;
+            this.CELINE_TOP_FAN_IDX = parseInt(process.env.START_INDEX);
         }
 
         return this;
